@@ -7,22 +7,45 @@
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
-
-
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
+          rel="stylesheet" type="text/css">
     <style type="text/css">
+    
+
+
       /* Large desktop */
       @media (min-width: 980px) { 
         body {
          padding-top: 60px;
         }
-      .container {
-        width: 960px;
+     }
+      /* All form factors */
+
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
       }
       p.lead {
-        padding-top: 15px;
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
       }
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
-        padding: 10px 0px 10px 0px;
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      /* Video pitch and Action */
+      .pitch {
+        padding: 2.5% 0%;
+      }
+      .order {
+        padding: 2% 0%;
       }
       .video, .thermometer, .order, .social {
         border: 1px dotted;
@@ -74,26 +97,16 @@
       <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
       <!-- www.google.com/fonts/specimen/Ubuntu -->
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
-    <div class="container">
-      <div class="row navigation">
-        <div class="span2 logo">
-          Logo
-        </div>
-        <div class="span6 blank">
-          Blank
-        </div>
-        <div class="span4 about">
-          About
-        </div>
-      </div>
-      <div class="row heading">
+    <div class="row-fluid heading">
         <div class="span12">
-          <h1>Bitstarter Title</h1>
+          <h1>SnapShirt</h1>
         </div>
       </div> 
-     <div class="row subheading">
+      <div class="row-fluid subheading">
         <div class="span12">
-          <p class="lead">This is my first bitstarter project.</p>
+          <!-- Special typography from Bootstrap for lead paragraph. -->
+          <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
+          <p class="lead">Your Snapshot, Your T-shirt.</p>
         </div>
       </div>
       <div class="row pitch">
